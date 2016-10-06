@@ -1,4 +1,4 @@
-Padraig said this could help configure the clock timing to use the onboard ossiliator
+== One Key Keyboard ==
+This is a keyboard with a single key, powered by the attiny85. Design and instructions on the following blog: http://blog.flipwork.nl/?x=entry:entry081009-142605
 
-clock_prescale_set(clock_div_1); 
-F_CPU = 16000000;
+
