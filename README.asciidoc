@@ -1,4 +1,8 @@
 == One Key Keyboard ==
 This is a keyboard with a single key, powered by the attiny85. Design and instructions on the following blog: http://blog.flipwork.nl/?x=entry:entry081009-142605
 
+=== Install ===
+I'm using a USBasp programmer, to install simply _sudo make program_
 
+=== Video ===
+Video of the keyboard in operation: https://www.youtube.com/watch?v=mzkXDefIQtg
