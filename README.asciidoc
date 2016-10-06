@@ -6,7 +6,7 @@ To update the v-usb code, do the following:
 
 - git submodule init
 - git submodule update
-cd v-usb and follow README.md instructions.
+- cd v-usb and follow README.md instructions.
 
 If you are happy enough to use the binaries I've provided in the usbdrv folder you can compile and push a firmware to the attiny85 with: _sudo make program_
 
