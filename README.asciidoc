@@ -2,7 +2,15 @@
 This is a keyboard with a single key, powered by the attiny85. Design and instructions on the following blog: http://blog.flipwork.nl/?x=entry:entry081009-142605
 
 === Install ===
-I'm using a USBasp programmer, to install simply _sudo make program_
+To update the v-usb code, do the following:
+
+- git submodule init
+- git submodule update
+cd v-usb and follow README.md instructions.
+
+If you are happy enough to use the binaries I've provided in the usbdrv folder you can compile and push a firmware to the attiny85 with: _sudo make program_
+
+I'm using the USBASP ISP programmer, edit the Makefile and change it if you are using something different etc.
 
 === Video ===
 Video of the keyboard in operation: https://www.youtube.com/watch?v=mzkXDefIQtg
